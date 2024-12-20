@@ -1,0 +1,30 @@
+SEMANTIC GROUPING OF CLINICAL STUDIES FOR RETRIEVAL AND STRATEGIC INSIGHTS
+
+Business context & challenge:
+While designing and writing a clinical trial protocol document, multiple empirical, scientific and medical references are used. Like any other
+hypothesis testing, it helps gain insights from similar historical research / experiments / clinical studies from the past to minimize
+chances of failure and improve predictability, quality & execution. The researcher / author’s interest would be focused on finding a subset of
+trials as relevant as possible, categorized by drug(s) and/or disease(s) and other factors, given past clinical trials data. These insights can
+help avoid errors and improve the speed and efficiency of the clinical trial design, which remains a challenge for pharma sector. Delays in
+designing, errors etc. have a cascading impact on timelines for clinical trials.
+
+Problem statement from technical lens:
+Obtaining a matched subset of clinical trials for only a combination of 4 unstructured features (textual data: Study Title, Primary outcome
+measure, Secondary outcome measure and Criteria) and using the patterns found in themafter applying the human logical thought process.
+The expectation is to design the approach, model, method and/or algorithm to enable this.
+
+Dataset:
+A smaller subset of 450,000 clinical trials data will be provided from clinicaltrials.gov (publicly available)
+
+Technical solution requirement:
+Utilizing AI & deep learning methods, obtain a solution such that there is a mechanism to retrieve the relevant clinical trials based on a
+query.
+
+Metrics for Evaluation:
+Using 3 different trials NCT00385736 , NCT00386607 and NCT03518073 we would evaluate 10 similar trials coming from each trial
+respectively using our internal algorithm.
+
+Additional evaluation:
+Exploratory data analysis, Data preparation/cleaning, feature engineering, AI Framework, evaluation using appropriate metrics and the
+model explainability (The model's explainability must align with domain understanding of clinical trials); weighted more on model
+explainability.
